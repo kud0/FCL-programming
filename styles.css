@@ -238,7 +238,8 @@ body {
 /* Swipeable Container */
 .swipe-container {
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     touch-action: pan-y;
     padding: 0 1rem;
     max-width: 600px;
@@ -569,6 +570,46 @@ body {
 .subsection-title.mobility {
     background: linear-gradient(135deg, rgba(147, 112, 219, 0.15), rgba(147, 112, 219, 0.05));
     border-left-color: #9370DB;
+}
+.subsection-title.primer {
+    background: linear-gradient(135deg, rgba(255, 75, 75, 0.15), rgba(255, 75, 75, 0.05));
+    border-left-color: var(--primary);
+}
+.subsection-title.intro {
+    background: linear-gradient(135deg, rgba(100, 149, 237, 0.15), rgba(100, 149, 237, 0.05));
+    border-left-color: #6495ED;
+}
+.subsection-title.recovery {
+    background: linear-gradient(135deg, rgba(135, 206, 235, 0.15), rgba(135, 206, 235, 0.05));
+    border-left-color: #87CEEB;
+}
+.subsection-title.movement {
+    background: linear-gradient(135deg, rgba(50, 205, 50, 0.15), rgba(50, 205, 50, 0.05));
+    border-left-color: #32CD32;
+}
+.subsection-title.partA {
+    background: linear-gradient(135deg, rgba(255, 75, 75, 0.15), rgba(255, 75, 75, 0.05));
+    border-left-color: var(--primary);
+}
+.subsection-title.partB {
+    background: linear-gradient(135deg, rgba(30, 144, 255, 0.15), rgba(30, 144, 255, 0.05));
+    border-left-color: #1E90FF;
+}
+.subsection-title.partC {
+    background: linear-gradient(135deg, rgba(135, 206, 235, 0.15), rgba(135, 206, 235, 0.05));
+    border-left-color: #87CEEB;
+}
+.subsection-title.event1 {
+    background: linear-gradient(135deg, rgba(255, 75, 75, 0.15), rgba(255, 75, 75, 0.05));
+    border-left-color: var(--primary);
+}
+.subsection-title.event2 {
+    background: linear-gradient(135deg, rgba(30, 144, 255, 0.15), rgba(30, 144, 255, 0.05));
+    border-left-color: #1E90FF;
+}
+.subsection-title.event3 {
+    background: linear-gradient(135deg, rgba(50, 205, 50, 0.15), rgba(50, 205, 50, 0.05));
+    border-left-color: #32CD32;
 }
 
 /* Exercise List Improvements */

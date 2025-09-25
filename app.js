@@ -145,7 +145,7 @@ const trainingDays = [
                     "*Threshold work - where adaptation happens*",
                     "",
                     "21-15-9",
-                    "• Thrusters (65/45 lbs)",
+                    "• Thrusters (30/20 kg)",
                     "• Pull-ups (scale as needed)",
                     "**Goal time**: 8-12 min",
                     "**Rest 5 min**",
@@ -153,7 +153,7 @@ const trainingDays = [
                     "Then:",
                     "3 rounds @ RPE 5:",
                     "• 15 Wall balls",
-                    "• 12 American KB swings (35/26 lbs)",
+                    "• 12 American KB swings (16/12 kg)",
                     "• 9 Box jumps (step down)",
                     "• Rest 2 min between rounds"
                 ],
@@ -270,8 +270,8 @@ const trainingDays = [
                     "",
                     "C. **Capacity Test**",
                     "5 min AMRAP:",
-                    "• 5 Power snatches (75/55 lbs)",
-                    "• 10 Box jump overs (24/20\")",
+                    "• 5 Power snatches (35/25 kg)",
+                    "• 10 Box jump overs (61/51 cm)",
                     "• 15 Double unders"
                 ],
                 cooldown: [
@@ -316,7 +316,7 @@ const trainingDays = [
                 test: [
                     "Competition WOD simulation:",
                     "21-15-9",
-                    "• Thrusters (95/65 lbs)",
+                    "• Thrusters (43/30 kg)",
                     "• Pull-ups",
                     "",
                     "Rest 10 min, then:",
@@ -346,51 +346,64 @@ const trainingDays = [
     },
     {
         day: 7,
-        phase: "PHASE 2",
-        phaseName: "INTENSIFICATION",
-        title: "Strength Maintenance",
-        subtitle: "Maintain power, don't build",
-        trimp: "120-140",
+        phase: "PHASE 1",
+        phaseName: "REACTIVATION",
+        title: "Long Aerobic & Gymnastics",
+        subtitle: "Aerobic capacity, gymnastics endurance",
+        trimp: "180-200",
         intensity: "MODERATE",
-        focus: "POWER",
+        focus: "AEROBIC + GYMNASTICS",
         workout: {
             main: {
-                title: "POWER SESSION (40 min)",
-                warmup: [
-                    "Dynamic warm-up with bands",
-                    "Box jumps progressing height",
-                    "Medicine ball slams"
-                ],
-                power: [
-                    "Power Clean:",
-                    "• 5x2 @ 75-80%",
-                    "• Focus on bar speed",
+                title: "SINGLE LONG SESSION (75 min)",
+                partA: [
+                    "Part A: Aerobic Capacity (40 min) @ RPE 4-5",
+                    "\"The Machine\"",
                     "",
-                    "Push Jerk:",
-                    "• 5x2 @ 70-75%",
-                    "• Quick dip and drive"
+                    "5 rounds:",
+                    "• 400m run",
+                    "• 30 Wall balls (6/4 kg)",
+                    "• 20 Pull-ups",
+                    "• 10 Handstand push-ups (scale: pike push-ups)",
+                    "• Rest 2 min",
+                    "",
+                    "Pace for consistency, not speed"
                 ],
-                accessory: [
-                    "3 rounds, quality:",
-                    "• 5 broad jumps",
-                    "• 10 med ball throws",
-                    "• 15 band pull-aparts"
+                partB: [
+                    "Part B: Gymnastics Endurance (20 min) @ RPE 5-6",
+                    "",
+                    "10 min AMRAP:",
+                    "• 5 Muscle-ups (scale: pull-ups + dips)",
+                    "• 10 Pistols (alternating)",
+                    "• 15 Hollow rocks"
+                ],
+                partC: [
+                    "Part C: Cool-down (15 min)",
+                    "• 10 min easy bike",
+                    "• 5 min stretching"
+                ],
+                review: [
+                    "Weekly Review:",
+                    "• Total TRIMP Week 1: ~950",
+                    "• Energy levels check",
+                    "• Movement quality assessment",
+                    "• Adjust Week 2 if needed"
                 ]
             }
         },
         nutrition: {
-            carbs: "350g",
-            protein: "165g",
-            fats: "75g",
-            timing: "Protein + carbs within 30 min"
+            carbs: "375g",
+            protein: "160g",
+            fats: "70g",
+            timing: "Carbs before AND after long session. Hydrate well."
         },
         recovery: [
-            "Yoga or stretching class",
-            "Massage gun on tight spots",
-            "Hydrate with electrolytes",
-            "Visualize competition success"
+            "Full body stretching",
+            "Foam roll legs and back",
+            "Extra hydration + electrolytes",
+            "8-9 hours sleep critical"
         ],
-        tips: "Fast and snappy. If bar speed slows, reduce weight. Power is about speed, not load."
+        tips: "This is a long session. Pace yourself - it's about building capacity, not racing."
     },
     {
         day: 8,
@@ -403,28 +416,36 @@ const trainingDays = [
         focus: "GLYCOLYTIC",
         workout: {
             main: {
-                title: "LACTATE SESSION",
-                warmup: [
-                    "10 min progressive row",
-                    "Dynamic stretching",
-                    "2 rounds of workout movements"
+                title: "SINGLE SESSION (50 min)",
+                intro: [
+                    "Lactate Training @ RPE 6-7",
+                    "*Build capacity to clear lactate and work through discomfort*"
                 ],
-                intervals: [
-                    "5 rounds:",
-                    "90 seconds MAX effort:",
-                    "• Max cal row",
-                    "Rest 3 minutes",
+                partA: [
+                    "A. Lactate Intervals",
                     "",
-                    "Then:",
-                    "3 rounds:",
-                    "2 min AMRAP:",
-                    "• 10 burpees",
-                    "• 10 box jump overs",
-                    "Rest 2 minutes"
+                    "5 rounds:",
+                    "• 90 seconds MAX effort cal row",
+                    "• Rest 3 minutes",
+                    "",
+                    "**Goal**: Consistent calories each round"
                 ],
-                cooldown: [
-                    "15 min easy bike",
-                    "Flush out lactate"
+                partB: [
+                    "B. Lactate Buffering",
+                    "",
+                    "3 rounds @ RPE 6:",
+                    "• 2 min AMRAP:",
+                    "  - 10 burpees",
+                    "  - 10 box jump overs (61/51 cm)",
+                    "• Rest 2 min between rounds"
+                ]
+            },
+            afternoon: {
+                title: "AFTERNOON",
+                activities: [
+                    "• 30 min Zone 2 recovery",
+                    "• Contrast therapy (hot/cold)",
+                    "• Massage or foam rolling"
                 ]
             }
         },
@@ -477,7 +498,7 @@ const trainingDays = [
                     "",
                     "Event 3 (2pm):",
                     "AMRAP 7:",
-                    "• 7 thrusters (115/75)",
+                    "• 7 thrusters (52/34 kg)",
                     "• 7 box jump overs",
                     "• 7 toes-to-bar"
                 ]
@@ -543,119 +564,216 @@ const trainingDays = [
     },
     {
         day: 11,
-        phase: "PHASE 3",
-        phaseName: "COMPETITION PEAKING",
-        title: "Sharpening",
-        subtitle: "Short, intense efforts",
-        trimp: "100-120",
-        intensity: "HIGH",
-        focus: "SPEED",
+        phase: "PHASE 2",
+        phaseName: "INTENSIFICATION",
+        title: "Active Recovery & Movement Prep",
+        subtitle: "Recovery, maintain movement quality",
+        trimp: "60-80",
+        intensity: "VERY LOW",
+        focus: "RECOVERY",
         workout: {
             main: {
-                title: "SHARPENING SESSION (30 min)",
-                warmup: [
-                    "15 min gradual warm-up",
-                    "Include all movement patterns"
+                title: "LIGHT SESSION (40 min)",
+                recovery: [
+                    "Zone 2 Recovery (20 min) @ RPE 2-3",
+                    "• Choice of easy movement",
+                    "• Focus on breathing, relaxation"
                 ],
-                speed: [
-                    "5 x 30 sec MAX efforts:",
-                    "• Round 1: Row",
-                    "• Round 2: Bike",
-                    "• Round 3: Burpees",
-                    "• Round 4: Double-unders",
-                    "• Round 5: Thrusters (empty bar)",
+                movement: [
+                    "Movement Quality (15 min) @ RPE 3",
                     "",
-                    "Rest 2 min between efforts"
+                    "3 rounds, not for time:",
+                    "• 10 Perfect air squats",
+                    "• 10 Perfect push-ups",
+                    "• 10 Perfect hollow rocks",
+                    "• 5 Perfect pull-ups"
                 ],
-                cooldown: [
-                    "15 min easy movement",
-                    "Full stretching routine"
+                mobility: [
+                    "Mobility (5 min)",
+                    "• Competition-specific positions",
+                    "• Problem areas"
                 ]
             }
         },
         nutrition: {
-            carbs: "400g",
+            carbs: "300g",
             protein: "150g",
-            fats: "70g",
-            timing: "Carb loading continues"
+            fats: "75g",
+            timing: "Normal eating pattern, stay hydrated"
         },
         recovery: [
-            "Light massage",
-            "Compression garments",
-            "Hydrate aggressively",
-            "Visualize success"
+            "Light stretching",
+            "Sauna or hot bath",
+            "Meditation 10-20 min",
+            "8-9 hours sleep"
         ],
-        tips: "Short and sharp. You should feel FAST and powerful. If not, stop and rest more."
+        tips: "This is about recovery and mental prep. Keep movements perfect, no intensity."
     },
     {
         day: 12,
         phase: "PHASE 3",
         phaseName: "COMPETITION PEAKING",
-        title: "Movement Prep",
-        subtitle: "Touch all movements lightly",
-        trimp: "80-100",
-        intensity: "MODERATE",
-        focus: "TECHNIQUE",
+        title: "Neural Priming",
+        subtitle: "Prime nervous system, maintain sharpness",
+        trimp: "100-120",
+        intensity: "HIGH",
+        focus: "NEURAL",
         workout: {
             main: {
-                title: "MOVEMENT TOUCH (25 min)",
-                practice: [
-                    "3 rounds, NOT for time:",
-                    "• 5 clean & jerks (50%)",
-                    "• 5 muscle-ups or pull-ups",
-                    "• 20 double-unders",
-                    "• 5 handstand push-ups",
-                    "",
-                    "Move perfectly, no fatigue"
+                title: "SHORT INTENSE SESSION (35 min)",
+                intro: [
+                    "Neural Activation @ RPE 7-8",
+                    "*\"Touch intensity, don't chase it\"*"
                 ],
-                activation: [
-                    "2 x 100m sprint @ 80%",
-                    "Rest 2 min between",
+                power: [
+                    "Power Development",
                     "",
-                    "3 x 5 box jumps (competition height)"
+                    "5 x 2 Power snatches @ 70-75%:",
+                    "• Rest 2 min",
+                    "• Focus: Speed, technique"
+                ],
+                sprint: [
+                    "Sprint Capacity",
+                    "",
+                    "3 x 100m sprint:",
+                    "• Rest 3 min",
+                    "• 90% effort"
+                ],
+                finisher: [
+                    "Competition Movement Touch",
+                    "",
+                    "2 rounds @ 70% effort:",
+                    "• 5 Thrusters",
+                    "• 5 Pull-ups",
+                    "• 5 Burpees"
                 ]
             }
         },
         nutrition: {
-            carbs: "425g",
-            protein: "145g",
-            fats: "65g",
-            timing: "Practice competition day timing"
+            carbs: "350g",
+            protein: "150g",
+            fats: "70g",
+            timing: "Immediate nutrition post-workout"
         },
         recovery: [
-            "Foam roll problem areas",
-            "Hot bath with Epsom salts",
-            "Pack competition bag",
-            "Early to bed - 9+ hours"
+            "Immediate nutrition",
+            "Light stretching",
+            "No screens after 8pm",
+            "Early sleep (9+ hours)"
         ],
-        tips: "Just touching movements. Building confidence. Your fitness is there, trust it."
+        tips: "Touch intensity briefly. This is about feeling fast and sharp, not exhausting yourself."
     },
     {
         day: 13,
         phase: "PHASE 3",
         phaseName: "COMPETITION PEAKING",
-        title: "Final Prep",
-        subtitle: "Light movement, mostly rest",
+        title: "Final Competition Simulation",
+        subtitle: "Test competition pacing, final systems check",
         trimp: "60-80",
-        intensity: "LOW",
-        focus: "ACTIVATION",
+        intensity: "MODERATE",
+        focus: "SIMULATION",
         workout: {
             main: {
-                title: "ACTIVATION DAY",
-                morning: [
-                    "20 min easy bike or walk",
-                    "Light stretching"
+                title: "COMPETITION SIMULATION SESSION (40 min)",
+                intro: [
+                    "Final Testing @ RPE 5-7",
+                    "*\"Last chance to dial in competition pace - stay controlled\"*"
                 ],
-                afternoon: [
-                    "Competition movement check:",
-                    "• 3-5 reps each competition movement",
-                    "• At 50-60% intensity",
-                    "• Focus on feeling smooth"
+                warmup: [
+                    "Warm-up (10 min)",
+                    "• 5 min easy bike/row",
+                    "• Dynamic stretching sequence",
+                    "• Competition movement patterns @ 50%"
                 ],
-                mental: [
-                    "Review competition strategy",
-                    "Visualize each event",
-                    "Prepare playlist/routine"
+                event1: [
+                    "**Mini Event 1**",
+                    "",
+                    "3 min AMRAP @ 75% effort:",
+                    "• 5 Thrusters (competition weight)",
+                    "• 5 Pull-ups",
+                    "• 5 Burpees over bar",
+                    "• Rest 5 min"
+                ],
+                event2: [
+                    "**Mini Event 2**",
+                    "",
+                    "Build to heavy single Clean & Jerk:",
+                    "• 5 singles, increasing load",
+                    "• Cap at 85% of recent max",
+                    "• Rest 2 min between lifts"
+                ],
+                event3: [
+                    "**Mini Event 3**",
+                    "",
+                    "500m Row @ 80% effort:",
+                    "• Record time for pacing reference"
+                ],
+                cooldown: [
+                    "Cool-down (5 min)",
+                    "• Easy walk",
+                    "• Light stretching",
+                    "• Mental notes on pacing"
+                ]
+            }
+        },
+        nutrition: {
+            carbs: "400g",
+            protein: "145g",
+            fats: "65g",
+            timing: "Begin carb loading protocol"
+        },
+        recovery: [
+            "Pack competition bag",
+            "Check all equipment",
+            "Light stretching only",
+            "Sleep 8+ hours minimum"
+        ],
+        tips: "Final movement check. Everything should feel smooth and easy. Save the intensity for competition."
+    },
+    {
+        day: 14,
+        phase: "PHASE 3",
+        phaseName: "COMPETITION PEAKING",
+        title: "Movement Quality & Recovery Focus",
+        subtitle: "Maintain movement patterns, optimize recovery, mental preparation",
+        trimp: "50-60",
+        intensity: "LOW",
+        focus: "RECOVERY + QUALITY",
+        workout: {
+            main: {
+                title: "RECOVERY-FOCUSED SESSION (35 min)",
+                intro: [
+                    "Movement Maintenance @ RPE 3-5",
+                    "*\"Move well, recover fully, prepare mentally\"*"
+                ],
+                warmup: [
+                    "Extended Warm-up (12 min)",
+                    "• 6 min Zone 2 bike/row",
+                    "• Full-body dynamic stretching sequence:",
+                    "  - 10 leg swings each direction",
+                    "  - 10 arm circles forward/back",
+                    "  - 10 hip circles each way",
+                    "  - 5 inch worms",
+                    "  - 10 walking lunges with twist"
+                ],
+                main: [
+                    "Movement Quality Work (15 min)",
+                    "",
+                    "3 rounds @ 60% effort, focus on perfection:",
+                    "• 3 Power snatches (60%)",
+                    "• 5 Thrusters (light)",
+                    "• 7 Pull-ups (competition standard)",
+                    "• 10 Double unders",
+                    "• Rest 2 min between rounds",
+                    "",
+                    "Focus: Smooth, efficient movement patterns"
+                ],
+                finisher: [
+                    "Competition Specific Touch (8 min)",
+                    "",
+                    "2 x 2 Clean & Jerk @ 70%:",
+                    "• Rest 2 min between sets",
+                    "• Focus: Speed and confidence"
                 ]
             }
         },
@@ -663,44 +781,58 @@ const trainingDays = [
             carbs: "450g",
             protein: "140g",
             fats: "60g",
-            timing: "High carb, low fiber. Easy digestion."
+            timing: "High carb day (7-8g per kg). Hydrate well."
         },
         recovery: [
-            "Legs up wall 20 min",
-            "Light stretching only",
-            "Hydrate with electrolytes",
-            "No new foods!"
+            "Visualization: 15 min",
+            "Hydration optimization",
+            "No new foods or supplements",
+            "Sleep: 8+ hours minimum"
         ],
-        tips: "The hay is in the barn. Stay relaxed, trust your training. You're ready."
+        tips: "Light opener to prime your nervous system. You should finish feeling energized, not tired."
     },
     {
-        day: 14,
+        day: 15,
         phase: "PHASE 3",
         phaseName: "COMPETITION PEAKING",
-        title: "Rest Day",
-        subtitle: "Complete rest before competition",
-        trimp: "0",
-        intensity: "NONE",
-        focus: "REST",
+        title: "Competition Prep & Neural Priming",
+        subtitle: "Final movement patterns, maintain neural drive",
+        trimp: "50-70",
+        intensity: "LOW-MODERATE",
+        focus: "NEURAL PRIMING",
         workout: {
             main: {
-                title: "COMPLETE REST",
-                activities: [
-                    "Optional 15 min walk",
-                    "Light stretching if needed",
-                    "Stay off your feet mostly"
+                title: "MORNING SESSION (30 min)",
+                intro: [
+                    "Neural Priming Work @ RPE 4-5",
+                    "*\"Touch intensity, don't chase it - save the fire for competition\"*"
                 ],
-                preparation: [
-                    "Check all equipment",
-                    "Prepare meals for tomorrow",
-                    "Review venue/schedule",
-                    "Set multiple alarms"
+                warmup: [
+                    "Dynamic Warm-up (10 min)",
+                    "• 5 min easy bike/row @ conversational pace",
+                    "• Dynamic movement sequence:",
+                    "  - 10 leg swings each direction",
+                    "  - 10 arm circles forward/back",
+                    "  - 10 hip circles each way",
+                    "  - 5 inchworms with push-up"
                 ],
-                mental: [
-                    "Positive self-talk",
-                    "Review your WHY",
-                    "Trust your preparation",
-                    "Early to bed - 8pm latest"
+                main: [
+                    "Competition Movement Touch (15 min)",
+                    "",
+                    "EMOM for 9 minutes @ 60% effort:",
+                    "• Min 1: 3 Power cleans (competition weight)",
+                    "• Min 2: 5 Thrusters (light)",
+                    "• Min 3: 30 Double unders",
+                    "",
+                    "Then: 3 x 2 Power snatches @ 70%:",
+                    "• Rest 90 seconds between",
+                    "• Focus: Speed and confidence"
+                ],
+                cooldown: [
+                    "Cool-down (5 min)",
+                    "• Light walk",
+                    "• Arm swings and leg swings",
+                    "• Deep breathing"
                 ]
             }
         },
@@ -708,74 +840,106 @@ const trainingDays = [
             carbs: "400g",
             protein: "140g",
             fats: "60g",
-            timing: "Normal meals. Dinner by 6pm."
+            timing: "Normal meals, dinner by 6pm. No new foods!"
         },
         recovery: [
-            "No intense stretching",
-            "Relaxation techniques",
-            "Avoid stress/excitement",
-            "9+ hours sleep target"
+            "No intense activity",
+            "Light walk if needed",
+            "Final equipment check",
+            "Bed by 8pm latest"
         ],
-        tips: "Tomorrow you compete. Today you rest. Don't overthink. You've done the work."
+        tips: "Tomorrow is game day. Today is about staying calm, confident, and prepared. You've done the work!"
     },
     {
-        day: 15,
+        day: 16,
         phase: "PHASE 3",
-        phaseName: "COMPETITION PEAKING",
-        title: "Final Movement Prep",
-        subtitle: "Competition minus 1 day",
-        trimp: "40-60",
-        intensity: "LOW",
-        focus: "PRIME",
+        phaseName: "COMPETITION EVE",
+        title: "Competition Eve",
+        subtitle: "Light activation, mental preparation, logistics finalization",
+        trimp: "30-40",
+        intensity: "VERY LOW",
+        focus: "ACTIVATION",
         workout: {
             main: {
-                title: "COMPETITION EVE",
-                morning: [
-                    "10 min easy movement",
-                    "Dynamic warm-up",
-                    "No static stretching!"
+                title: "MORNING SESSION (20 min)",
+                intro: [
+                    "Competition Eve Activation @ RPE 3-4",
+                    "*\"Tomorrow you compete - today you prepare with intention\"*"
+                ],
+                warmup: [
+                    "Light Warm-up (8 min)",
+                    "• 4 min easy bike or row",
+                    "• Dynamic stretching:",
+                    "  - 10 leg swings each",
+                    "  - 10 arm circles",
+                    "  - 5 walk-outs",
+                    "  - 5 jump squats (bodyweight)"
                 ],
                 primer: [
-                    "3 rounds, easy pace:",
-                    "• 5 burpees",
-                    "• 10 air squats",
-                    "• 5 push-ups",
-                    "• 10 jumping jacks",
+                    "Movement Primers (10 min)",
                     "",
-                    "Then:",
-                    "2 x 50m sprint @ 70%",
-                    "Just to feel fast"
+                    "2 rounds @ 50% effort:",
+                    "• 2 Power snatches (60%)",
+                    "• 3 Thrusters (empty bar)",
+                    "• 5 Pull-ups",
+                    "• 10 Double unders",
+                    "• Rest 2 min between rounds",
+                    "",
+                    "Focus: Feel smooth, stay relaxed"
                 ],
-                final: [
-                    "Pack competition bag",
-                    "Double-check everything",
-                    "Eat familiar foods only",
-                    "Bed by 8:30pm"
+                cooldown: [
+                    "Cool-down (2 min)",
+                    "• Easy walk",
+                    "• Shake out limbs",
+                    "• Positive self-talk"
                 ]
             }
         },
         nutrition: {
-            carbs: "400g",
-            protein: "140g",
-            fats: "55g",
-            timing: "Last meal by 6pm. Keep it simple."
+            carbs: "300g",
+            protein: "120g",
+            fats: "50g",
+            timing: "Normal meals, familiar foods only"
         },
         recovery: [
-            "No new recovery methods",
-            "Light walk after dinner",
-            "Meditation or breathing",
-            "Phone off by 7pm"
+            "Competition bag packed",
+            "Early to bed (9+ hours)",
+            "No new foods or activities",
+            "Mental visualization"
         ],
-        tips: "You're ready. Trust yourself. Tomorrow you show what you've built. Go get it!"
+        tips: "Tomorrow is competition day. Stay calm, trust your preparation, and get quality rest."
     }
 ];
 
 // App State
-let currentDay = 1;
+const PROGRAM_START_DATE = new Date('2025-09-25'); // Day 1 start date
+let currentDay = calculateCurrentDay();
 let currentView = 'workout';
 let touchStartX = 0;
 let touchEndX = 0;
 let isDragging = false;
+
+// Calculate current day based on program start date
+function calculateCurrentDay() {
+    const today = new Date();
+    const startDate = new Date(PROGRAM_START_DATE);
+
+    // Reset time to midnight for accurate day calculation
+    today.setHours(0, 0, 0, 0);
+    startDate.setHours(0, 0, 0, 0);
+
+    const diffTime = today - startDate;
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+    // Day calculation: if today is start date, it's day 1
+    const calculatedDay = diffDays + 1;
+
+    // Ensure we stay within the 16-day program bounds
+    if (calculatedDay < 1) return 1;
+    if (calculatedDay > 16) return 16;
+
+    return calculatedDay;
+}
 
 // Initialize App
 document.addEventListener('DOMContentLoaded', () => {
@@ -835,8 +999,14 @@ function createWorkoutContent(day) {
     function createSubsection(sectionData, parentTitle) {
         let subsectionContent = '';
         const subsections = [
+            { key: 'intro', label: '📋 OVERVIEW', icon: 'intro' },
             { key: 'warmup', label: '🔥 WARM-UP', icon: 'warmup' },
+            { key: 'recovery', label: '💤 RECOVERY', icon: 'recovery' },
+            { key: 'movement', label: '🎯 MOVEMENT QUALITY', icon: 'movement' },
             { key: 'main', label: '💪 MAIN WORK', icon: 'main' },
+            { key: 'partA', label: '🅰️ PART A', icon: 'partA' },
+            { key: 'partB', label: '🅱️ PART B', icon: 'partB' },
+            { key: 'partC', label: '🅲 PART C', icon: 'partC' },
             { key: 'strength', label: '🏋️ STRENGTH', icon: 'strength' },
             { key: 'power', label: '⚡ POWER', icon: 'power' },
             { key: 'metcon', label: '🔄 CONDITIONING', icon: 'metcon' },
@@ -848,13 +1018,17 @@ function createWorkoutContent(day) {
             { key: 'practice', label: '🎯 PRACTICE', icon: 'practice' },
             { key: 'accessory', label: '➕ ACCESSORY', icon: 'accessory' },
             { key: 'finisher', label: '🏁 FINISHER', icon: 'finisher' },
-            { key: 'cooldown', label: '❄️ COOL-DOWN', icon: 'cooldown' },
             { key: 'mobility', label: '🤸 MOBILITY', icon: 'mobility' },
             { key: 'prep', label: '🎪 PREPARATION', icon: 'prep' },
             { key: 'events', label: '🏆 COMPETITION EVENTS', icon: 'events' },
+            { key: 'event1', label: '1️⃣ EVENT 1', icon: 'event1' },
+            { key: 'event2', label: '2️⃣ EVENT 2', icon: 'event2' },
+            { key: 'event3', label: '3️⃣ EVENT 3', icon: 'event3' },
+            { key: 'competition', label: '🏆 COMPETITION', icon: 'competition' },
             { key: 'morning', label: '🌅 MORNING', icon: 'morning' },
             { key: 'afternoon', label: '☀️ AFTERNOON', icon: 'afternoon' },
             { key: 'primer', label: '🎯 PRIMER', icon: 'primer' },
+            { key: 'cooldown', label: '❄️ COOL-DOWN', icon: 'cooldown' },
             { key: 'activities', label: '📋 ACTIVITIES', icon: 'activities' },
             { key: 'optional', label: '🔄 OPTIONAL', icon: 'optional' },
             { key: 'mental', label: '🧠 MENTAL PREP', icon: 'mental' },
@@ -884,7 +1058,7 @@ function createWorkoutContent(day) {
                                     // 2. INDIVIDUAL MOVEMENTS - what you actually do
                                     else if (ex.match(/^[-•]\s*\d+/) ||                  // "• 40/35 cal Bike"
                                              ex.match(/^[-•]\s*[A-Z]\.\s/) ||            // "• A. Back Squat"
-                                             ex.match(/^[-•]\s*(Thrusters?|Pull-ups?|Push-ups?|Squats?|Row|Bike|Ski|Run|Clean|Snatch|Deadlift|Press|Burpee|Wall ball|Box jump|Double under|Handstand|Muscle-up)/i)) {
+                                             ex.match(/^[-•]\s*(Thrusters?|Pull-ups?|Push-ups?|Squats?|Row|Bike|Ski|Run|Clean|Snatch|Deadlift|Press|Burpee|Wall ball|Box jump|Double under|Handstand|Muscle-up|Bent row|Front squat|Back squat)/i)) {
                                         itemClass += ' movement';
                                     }
 
@@ -959,6 +1133,13 @@ function createWorkoutContent(day) {
 }
 
 function createNutritionContent(day) {
+    // Calculate total calories from macros
+    const carbGrams = parseInt(day.nutrition.carbs) || 0;
+    const proteinGrams = parseInt(day.nutrition.protein) || 0;
+    const fatGrams = parseInt(day.nutrition.fats) || 0;
+
+    const totalCalories = (carbGrams * 4) + (proteinGrams * 4) + (fatGrams * 9);
+
     return `
         <h2 class="day-title">Nutrition Plan</h2>
         <p class="day-subtitle">Day ${day.day} fuel strategy</p>
@@ -976,6 +1157,14 @@ function createNutritionContent(day) {
                 <span class="macro-value fats">${day.nutrition.fats}</span>
             </div>
         </div>
+        <div class="highlight-box" style="margin-top: 1rem;">
+            <p style="font-size: 1.1rem; font-weight: 700; color: var(--primary); margin-bottom: 0.5rem;">
+                Total Calories: ${totalCalories.toLocaleString()} kcal
+            </p>
+            <p style="font-size: 0.75rem; opacity: 0.8; margin-bottom: 0.5rem;">
+                Formula: (${carbGrams}g × 4) + (${proteinGrams}g × 4) + (${fatGrams}g × 9)
+            </p>
+        </div>
         <div class="highlight-box">
             <p>⏰ ${day.nutrition.timing}</p>
         </div>
@@ -983,11 +1172,19 @@ function createNutritionContent(day) {
 }
 
 function createRecoveryContent(day) {
+    // Same recovery checklist for every day - essential daily reminders
+    const dailyRecoveryItems = [
+        "Carbs within 30 min window after workout",
+        "Hydrate with water and electrolytes post-workout",
+        "Take creatine supplement",
+        "Target 8-9 hours of sleep"
+    ];
+
     return `
-        <h2 class="day-title">Recovery Protocol</h2>
-        <p class="day-subtitle">Optimize your adaptation</p>
+        <h2 class="day-title">Daily Recovery Checklist</h2>
+        <p class="day-subtitle">Essential recovery reminders - every day</p>
         <ul class="recovery-checklist">
-            ${day.recovery.map(item => `
+            ${dailyRecoveryItems.map(item => `
                 <li class="recovery-item">
                     <div class="check-circle"></div>
                     <span>${item}</span>
@@ -1170,16 +1367,22 @@ function updateProgress() {
 }
 
 function updateCountdown() {
-    const competitionDate = new Date();
-    competitionDate.setDate(competitionDate.getDate() + 16);
+    // Competition is on October 11, 2025
+    const competitionDate = new Date('2025-10-11');
 
     const now = new Date();
+    now.setHours(0, 0, 0, 0); // Reset to midnight for accurate calculation
+    competitionDate.setHours(0, 0, 0, 0);
+
     const diff = competitionDate - now;
     const days = Math.ceil(diff / (1000 * 60 * 60 * 24));
 
+    // Show remaining days, minimum 0
+    const remainingDays = Math.max(0, days);
+
     const countdownEl = document.querySelector('.countdown-number');
     if (countdownEl) {
-        countdownEl.textContent = days;
+        countdownEl.textContent = remainingDays;
     }
 }
 
