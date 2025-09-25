@@ -23,7 +23,6 @@ const trainingDays = [
                 ],
                 main: [
                     "Zone 2 Aerobic (30 min) @ RPE 3-4",
-                    "*Aerobic capacity is the foundation - without it, you're building on sand*",
                     "3 rounds for quality:",
                     "• 40/35 cal Bike",
                     "• 35/30 cal Row",
