@@ -179,7 +179,6 @@ body {
 /* Main Container */
 .main-container {
     padding-bottom: 60px;
-    min-height: calc(100vh - 120px);
 }
 
 /* Day Navigation */
@@ -262,7 +261,7 @@ body {
     background: var(--surface);
     border-radius: var(--radius);
     padding: 1rem;
-    min-height: 400px;
+    min-height: 200px;
     box-shadow: var(--shadow);
     border: 1px solid var(--surface-light);
 }
